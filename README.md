@@ -26,4 +26,4 @@
 
 *** bu parametrelerde `useSearchParams` kullanılır
 
-![](./gif/youtube.gif)
+![](./gif/youtubeclone.gif)
