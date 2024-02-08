@@ -1,9 +1,29 @@
-# React + Vite
+# Kütüphaneler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- react-router-dom
+- react-icons
+- axios
+- millify
+- moment
+- react-player
+- tailwind (kurulumu sitesinden yapılacak)
 
-Currently, two official plugins are available:
+# Kaynaklar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# YoutubeClone
+- API: https://rapidapi.com/ytjar/api/yt-api
+
+# Notlar
+
+1)  Yol Paramtresi (Path Params)
+
+- ürünler/56
+
+*** bu tarz yol parametrelerine erişmek için `useParams` kullanıyoruz
+
+2)  Arama Parametresi (Query Param)
+
+- ürünler?id=56&category=elektronik
+
+*** bu parametrelerde `useSearchParams` kullanılır
+
+![](./gif/youtube.gif)
